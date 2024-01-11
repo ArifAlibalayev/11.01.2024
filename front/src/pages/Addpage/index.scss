@@ -1,0 +1,15 @@
+.AddForm{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 90%;
+  margin: 80px auto;
+  width: 50%;
+  input{
+    padding: 5px;
+  }
+  button{
+    width: 80px;
+  }
+
+}

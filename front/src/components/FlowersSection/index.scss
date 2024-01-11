@@ -1,0 +1,73 @@
+#FlowersSection{
+  background-image: url('./../../assets/background1-1-1085x595.jpg');
+  .flowerSectionContainer{
+    padding: 50px 0;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .flowersSectionTitle{
+    text-align: center;
+    color: #10634e;
+    
+    h1{
+      font-size: 42px;
+      font-weight: 200;
+      line-height: 50px;
+    }
+  }
+
+  .flowersSectionWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0;
+    .pricingCard{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      align-items: center;
+      background-color: #fef1e6;
+      max-width: 350px;
+    min-height: 350px;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #10634e;
+    color: #10634e;
+    padding: 0 30px;
+    .pricePerTable{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+    button{
+      border: none;
+      outline: none;
+      background-color: #d8e3d5;
+      max-width: 120px;
+      min-height: 40px;
+      width: 100%;
+    }
+    }
+    .flowersCard{
+      max-width: 400px;
+      min-height: 200px;
+      width: 80%;
+      text-align: center;
+      line-height: 25px;
+      
+      .imgBox{
+        img{
+      border: 1px solid rgba($color: #000000, $alpha: 0.2);
+
+          width: 100%;
+          height: 70%;
+        }
+      }
+    }
+  }
+}

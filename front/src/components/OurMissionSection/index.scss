@@ -1,0 +1,38 @@
+#OurMissionSection{
+  width: 100%;
+  min-height: 60vh;
+  background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg");
+  display: grid;
+  place-content: center;
+  .ourMissionContainer{
+    max-width: 60%;
+    margin: 50px auto;
+    display: flex;
+    .ourMissionGreenBox{
+      background-color: #1b745e;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding: 60px 100px;
+      width: 100%;
+      height: 100%;
+      color: white;
+      gap: 15px;
+      font-family: 'Quicksand', sans-serif;
+      h2{
+        font-size: 32px;
+      }
+      p{
+        font-size: 18px;
+      }
+      button{
+        border: none;
+        outline: none;
+        background-color: #c5d6c1;
+        width: 150px;
+        height: 40px;
+      }
+    }
+  }
+}

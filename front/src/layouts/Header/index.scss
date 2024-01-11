@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+#header{
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba($color: #10634e, $alpha: 0.75);
+  width: 100%;
+  min-height: 8vh;
+  #nav{
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    .navBtns{
+      ul{
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+.activeNavLink{
+  color: white;
+}
+
+.pendingNavLink{
+  color: #e4d4b8;
+
+}
